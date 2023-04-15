@@ -12,14 +12,12 @@
 </thead>
 <tbody>
 <tr><td>loadVars</td><td>dbHladjenje.csv<datalist><option>dbHladjenje.csv</option></datalist></td><td></td></tr>
-<tr><td>store</td><td>1<datalist><option>1</option></datalist></td><td>index</td></tr>
-<tr><td>while</td><td>${index} <Id<datalist><option>${index} < loadVars.length</option><option>${index} < loadVars.id.length</option><option>${index} <id.length</option><option>${index} <{id}</option><option>${index} <4</option><option>${index} <Id</option></datalist></td><td></td></tr>
 <tr><td>open</td><td>https://sflogistika.dobojcaffe.com/webapp/transport_lkr/<datalist><option>https://sflogistika.dobojcaffe.com/webapp/transport_lkr/</option></datalist></td><td></td></tr>
-<tr><td>verifyElementPresent</td><td>xpath=//header/div[2]/h2<datalist></datalist></td><td></td></tr>
+<tr><td>verifyText</td><td>xpath=//header/div[2]/h2<datalist></datalist></td><td>Izračunavanje potrebne količine sredstva za hlađenje vagona-hladnjače</td></tr>
 <tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
 <tr><td>select</td><td>id=vrs<datalist><option>id=vrs</option></datalist></td><td>${rashladnoSredstvo}</td></tr>
 <tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
-<tr><td>select</td><td>id=gd<datalist></datalist></td><td>${godisnjeDoba}</td></tr>
+<tr><td>select</td><td>id=gd<datalist><option>id=gd</option></datalist></td><td>${godisnjeDoba}</td></tr>
 <tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
 <tr><td>setText</td><td>id=mr<datalist></datalist></td><td>${masaRobe}</td></tr>
 <tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
@@ -31,9 +29,13 @@
 <tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
 <tr><td>select</td><td>id=str<datalist><option>id=str</option></datalist></td><td>${namirnica}</td></tr>
 <tr><td>pause</td><td>2000<datalist></datalist></td><td></td></tr>
-<tr><td>click</td><td>xpath=//div/button[text()="Izračunaj"]<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div/button[text()="Izračunaj"]<datalist><option>xpath=//div/button[text()="Izračunaj"]</option></datalist></td><td></td></tr>
 <tr><td>pause</td><td>2000<datalist><option>2000</option><option>2000</option></datalist></td><td></td></tr>
-<tr><td>endWhile</td><td><datalist></datalist></td><td></td></tr>
+<tr><td>if</td><td>${masaRobe} <= 0 || ${trajanjePrevoza} <= 0 || ${spoljnaTemperatura} <= -51 || ${spoljnaTemperatura} >= 51 || ${temperaturaProizvoda} <= -51 || ${temperaturaProizvoda} >= 51<datalist><option>${masaRobe} <= 0 || ${trajanjePrevoza} <= 0</option><option>${masaRobe} <= 0 || ${trajanjePrevoza} <= 0 || ${spoljasnjaTemperatura} <= -51 || ${spoljasnjaTemperatura} >= 51 || ${temperaturaProizvoda} <= -51 || ${temperaturaProizvoda} >= 51</option><option>${masaRobe} <= 0 || ${trajanjePrevoza} <= 0 || ${spoljnaTemperatura} <= -51 || ${spoljnaTemperatura} >= 51 || ${temperaturaProizvoda} <= -51 || ${temperaturaProizvoda} >= 51</option></datalist></td><td></td></tr>
+<tr><td>assertAlert</td><td><datalist><option></option></datalist></td><td></td></tr>
+<tr><td>else</td><td><datalist><option></option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>xpath=//div[contains (@id, "rezultat")] <datalist><option>xpath=//div[contains (@id, "rezultat")] </option></datalist></td><td></td></tr>
+<tr><td>endIf</td><td><datalist><option></option></datalist></td><td></td></tr>
 <tr><td>endLoadVars</td><td><datalist></datalist></td><td></td></tr>
 </tbody></table>
 </body>
