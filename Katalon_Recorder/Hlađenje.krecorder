@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Hlađenje</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Hladjenje</td></tr>
+</thead>
+<tbody>
+<tr><td>loadVars</td><td>dbHladjenje.csv<datalist><option>dbHladjenje.csv</option></datalist></td><td></td></tr>
+<tr><td>store</td><td>1<datalist><option>1</option></datalist></td><td>index</td></tr>
+<tr><td>while</td><td>${index} <Id<datalist><option>${index} < loadVars.length</option><option>${index} < loadVars.id.length</option><option>${index} <id.length</option><option>${index} <{id}</option><option>${index} <4</option><option>${index} <Id</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://sflogistika.dobojcaffe.com/webapp/transport_lkr/<datalist><option>https://sflogistika.dobojcaffe.com/webapp/transport_lkr/</option></datalist></td><td></td></tr>
+<tr><td>verifyElementPresent</td><td>xpath=//header/div[2]/h2<datalist></datalist></td><td></td></tr>
+<tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
+<tr><td>select</td><td>id=vrs<datalist><option>id=vrs</option></datalist></td><td>${rashladnoSredstvo}</td></tr>
+<tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
+<tr><td>select</td><td>id=gd<datalist></datalist></td><td>${godisnjeDoba}</td></tr>
+<tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
+<tr><td>setText</td><td>id=mr<datalist></datalist></td><td>${masaRobe}</td></tr>
+<tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
+<tr><td>setText</td><td>id=tp<datalist></datalist></td><td>${trajanjePrevoza}</td></tr>
+<tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=ts<datalist></datalist></td><td>${spoljnaTemperatura}</td></tr>
+<tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=tpr<datalist></datalist></td><td>${temperaturaProizvoda}</td></tr>
+<tr><td>pause</td><td>1000<datalist></datalist></td><td></td></tr>
+<tr><td>select</td><td>id=str<datalist><option>id=str</option></datalist></td><td>${namirnica}</td></tr>
+<tr><td>pause</td><td>2000<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div/button[text()="Izračunaj"]<datalist></datalist></td><td></td></tr>
+<tr><td>pause</td><td>2000<datalist><option>2000</option><option>2000</option></datalist></td><td></td></tr>
+<tr><td>endWhile</td><td><datalist></datalist></td><td></td></tr>
+<tr><td>endLoadVars</td><td><datalist></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

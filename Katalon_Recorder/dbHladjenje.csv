@@ -1,0 +1,5 @@
+"Id,rashladnoSredstvo,godisnjeDoba,masaRobe,trajanjePrevoza,spoljnaTemperatura,temperaturaProizvoda,namirnica"
+"1,label=Vodeni led,label=Ljeto,8000,72,25,15,label=Svježe voće i povrće"
+"2,label=Vodeni led,label=Ljeto,9000,86,25,15,label=Svježe voće i povrće"
+"3,label=Suvi led,label=Ljeto,15000,24,24,4,label=Zaklana živina, margarin"
+"4,label=Suvi led,label=Ljeto,1200,24,25,-15,label=Zaklana živina, margarin"
