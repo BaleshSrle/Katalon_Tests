@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>dbHladjenje</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>adca34fc-6066-42bc-bb93-c0cb4850048d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Vodeni+led Ljeto 8000 72 25 15 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto 9000 86 25 15 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Suvi+led Ljeto 15000 24 24 4 Zaklana+%C5%BEivina%2C+margarin</data>
+   <data>Suvi+led Ljeto 1200 24 25 -15 Zaklana+%C5%BEivina%2C+margarin</data>
+   <data>Vodeni+led Ljeto 0 72 25 15 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto -100 72 25 15 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto 3000 0 25 15 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto 3000 -30 25 15 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto 3000 25 24 -51 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto 3000 24 25 51 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto 3000 24 -51 10 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <data>Vodeni+led Ljeto 3000 25 51 10 Svje%C5%BEe+vo%C4%87e+i+povr%C4%87e</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>rashladnoSredstvo</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>godisnjeDoba</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>masaRobe</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>trajanjePrevoza</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>spoljnaTemperatura</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>temperaturaProizvoda</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>namirnica</name>
+      <size>12</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
