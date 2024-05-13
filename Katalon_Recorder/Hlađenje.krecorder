@@ -12,7 +12,7 @@
 </thead>
 <tbody>
 <tr><td>loadVars</td><td>dbHladjenje.csv<datalist><option>dbHladjenje.csv</option></datalist></td><td></td></tr>
-<tr><td>open</td><td>https://sflogistika.dobojcaffe.com/webapp/transport_lkr/<datalist><option>https://sflogistika.dobojcaffe.com/webapp/transport_lkr/</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://baleshsrle.github.io/TransportPerishableGoods/<datalist><option>https://baleshsrle.github.io/TransportPerishableGoods/</option></datalist></td><td></td></tr>
 <tr><td>verifyText</td><td>xpath=//header/div[2]/h2<datalist></datalist></td><td>Izračunavanje potrebne količine sredstva za hlađenje vagona-hladnjače</td></tr>
 <tr><td>pause</td><td>1000<datalist><option>1000</option></datalist></td><td></td></tr>
 <tr><td>select</td><td>id=vrs<datalist><option>id=vrs</option></datalist></td><td>${rashladnoSredstvo}</td></tr>
