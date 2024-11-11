@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://sflogistika.dobojcaffe.com/webapp/transport_lkr/')
+WebUI.openBrowser('https://baleshsrle.github.io/TransportPerishableGoods/')
 
 WebUI.maximizeWindow()
 
@@ -73,3 +73,4 @@ WebUI.deleteAllCookies()
 WebUI.delay(GlobalVariable.timeDelay)
 
 WebUI.closeBrowser()
+

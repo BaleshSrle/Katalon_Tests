@@ -4,8 +4,12 @@
    <name>SFLogistikaWebApp</name>
    <tag></tag>
    <UUID>4f5bb7b8-4f9a-4f5f-8cec-ec7f2d485d1c</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.7.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\GitHub\Katalon_Tests\Katalon_Studio\SFLogistikaWebApp\SFLogistikaWebApp.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

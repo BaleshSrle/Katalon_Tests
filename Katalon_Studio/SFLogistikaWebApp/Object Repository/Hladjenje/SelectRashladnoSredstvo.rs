@@ -11,6 +11,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +19,6 @@
       <name>id</name>
       <type>Main</type>
       <value>vrs</value>
-      <webElementGuid>7553529d-ec0e-4b63-a028-9b7ed63c201a</webElementGuid>
+      <webElementGuid>6d5b71a4-1de9-4962-8eb3-48e575bee305</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

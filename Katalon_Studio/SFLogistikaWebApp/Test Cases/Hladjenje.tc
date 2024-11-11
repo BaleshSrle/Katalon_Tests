@@ -4,6 +4,7 @@
    <name>Hladjenje</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>56b86740-1a38-4b4e-9271-ae548be55ab2</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
