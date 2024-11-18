@@ -7,7 +7,7 @@ Repository for automatic test cases and test suites created in <img src="https:/
 [^1]: This commands are intended only for the users of Windows 10 and newer versions.
 
 > [!IMPORTANT]
-> After installing Java SE Development Kit 17, you need to add System Path and Enviroment Variables into your Windows OS for JDK.
+> After installing Java&trade; SE Development Kit 17, you need to add System Path and Enviroment Variables into your Windows OS for JDK.
 >
 > In **Path** add `C:\Program Files\Java\jdk-17\bin`.
 >
