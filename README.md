@@ -12,6 +12,6 @@ Repository for automatic test cases and test suites created in <img src="https:/
 > [!IMPORTANT]
 > After installing Java&trade; SE Development Kit 17, you need to add System Path and Enviroment Variables into your Windows OS for JDK.
 >
-> In **<var>Path</var>** add <code>C:\Program Files\Java\jdk-17\bin</code>.
+> In <var>**Path**</var> add `C:\Program Files\Java\jdk-17\bin`.
 >
-> Create new variable **<var>JAVA_HOME</var>** and add <code>C:\Program Files\Java\jdk-17\ </code> to that variable.
+> Create new variable <var>**JAVA_HOME**</var> and add `C:\Program Files\Java\jdk-17\` to that variable.
