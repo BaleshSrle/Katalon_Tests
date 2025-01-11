@@ -1,5 +1,6 @@
 # Katalon_Tests
 Repository for automatic test cases and test suites created in [<img src="https://img.shields.io/github/v/release/katalon-studio/katalon-studio?label=Katalon%20Studio&color=19d89f&filter=free-v9.*" alt="Katalon Studio" style="vertical-align: middle;">][id1] and <img src="https://img.shields.io/chrome-web-store/v/ljdobmomdgdljniojadhoplhkpialdid?logo=chromewebstore&logoColor=white&logoSize=auto&label=Katalon%20Recorder&color=f04864" alt="Katalon Recorder @ Chrome Web Store" style="vertical-align: middle;"> / <img src="https://img.shields.io/amo/v/katalon-automation-record?label=Katalon%20Recorder%20%40%20Mozilla%20Add-ons&color=f04864" alt="Katalon Recorder @ Mozilla Add-ons" style="vertical-align: middle;">
+
 [id1]: ## "<img src='https://img.shields.io/github/v/release/katalon-studio/katalon-studio?label=Katalon%20Studio&color=19d89f&filter=free-v9.*' alt='Katalon Studio'>"
 
 > [!NOTE]
