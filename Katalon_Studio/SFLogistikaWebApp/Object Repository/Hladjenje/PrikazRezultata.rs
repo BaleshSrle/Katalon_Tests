@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id, 'rezultat')]</value>
+         <value>//*[starts-with(@id, 'rezultat')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>rezultat</value>
-      <webElementGuid>30e668fd-71bc-4b01-90a4-6b4074bd6190</webElementGuid>
+      <webElementGuid>725b7318-4345-4f69-99f8-4a1b3e9d0f5a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

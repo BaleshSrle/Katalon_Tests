@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>IzracunajBtn</name>
+   <name>ButtonHladenje</name>
    <tag></tag>
-   <elementGuidId>d8e56585-3fc6-4acb-9bfc-5114ab7f45c3</elementGuidId>
+   <elementGuidId>f27e7bb9-9ed0-41e1-9718-721ff49acf09</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[contains(@class, 'btn-primary')]</value>
+         <key>XPATH</key>
+         <value>//h2[1]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/button[text()=&quot;Izračunaj&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'TransportProduce']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,10 +19,10 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>class</name>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
       <type>Main</type>
-      <value>btn-primary</value>
-      <webElementGuid>fd445f17-5ff1-4689-8ed8-70fbae618427</webElementGuid>
+      <value>TransportProduce</value>
+      <webElementGuid>c97d999c-8e25-4028-8075-acd7808833fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://baleshsrle.github.io/TransportPerishableGoods/')
+WebUI.openBrowser('https://baleshsrle.github.io/SFDobojWebAppCollection/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementText(findTestObject('Hladjenje/Text_H2'), 'Izračunavanje potrebne količine sredstva za hlađenje vagona-hladnjače')
+WebUI.scrollToElement(findTestObject('Hladjenje/ButtonHladenje'), GlobalVariable.timeDelay)
 
 WebUI.delay(GlobalVariable.timeDelay)
+
+WebUI.verifyElementPresent(findTestObject('Hladjenje/ButtonHladenje'), GlobalVariable.timeDelay)
+
+WebUI.delay(GlobalVariable.timeDelay)
+
+WebUI.click(findTestObject('Hladjenje/ButtonHladenje'))
 
 WebUI.selectOptionByLabel(findTestObject('Hladjenje/SelectRashladnoSredstvo'), rashladnoSredstvo, true)
 
@@ -63,10 +69,12 @@ if ((((((masaRobe <= '0') || (trajanjePrevoza <= '0')) || (spoljnaTemperatura <=
 
     WebUI.verifyAlertPresent(2)
 } else {
+    WebUI.waitForElementVisible(findTestObject('Hladjenje/PrikazRezultata'), 2)
+
     WebUI.verifyElementVisible(findTestObject('Hladjenje/PrikazRezultata'))
 }
 
-WebUI.delay(GlobalVariable.timeDelay)
+WebUI.delay(2)
 
 WebUI.deleteAllCookies()
 
