@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>adrHIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5cdef103-dc9e-485c-8196-557ace6c671b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9fabf551-fe8c-4ab9-9bec-2213b3a70c8f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>303e3715-6f0f-4c80-8cf2-1552b63ae36e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9fabf551-fe8c-4ab9-9bec-2213b3a70c8f</id>
+      <masked>false</masked>
+      <name>adrHINumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>303e3715-6f0f-4c80-8cf2-1552b63ae36e</id>
+      <masked>false</masked>
+      <name>adrHINmeaning</name>
+   </variable>
+</TestCaseEntity>

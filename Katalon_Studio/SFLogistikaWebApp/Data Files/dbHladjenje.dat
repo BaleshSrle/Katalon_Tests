@@ -3,6 +3,7 @@
    <description></description>
    <name>dbHladjenje</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>adca34fc-6066-42bc-bb93-c0cb4850048d</dataFileGUID>

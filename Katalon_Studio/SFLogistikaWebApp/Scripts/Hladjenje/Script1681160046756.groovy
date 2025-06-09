@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://baleshsrle.github.io/SFDobojWebAppCollection/')
+WebUI.openBrowser(GlobalVariable.appURL)
 
 WebUI.maximizeWindow()
+
+WebUI.delay(GlobalVariable.timeDelay)
+
+WebUI.verifyElementVisible(findTestObject('Hladjenje/H5_Hladjenje'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.timeDelay)
 
 WebUI.scrollToElement(findTestObject('Hladjenje/ButtonHladenje'), GlobalVariable.timeDelay)
 
@@ -31,6 +37,8 @@ WebUI.delay(GlobalVariable.timeDelay)
 
 WebUI.click(findTestObject('Hladjenje/ButtonHladenje'))
 
+WebUI.delay(GlobalVariable.timeDelay)
+
 WebUI.selectOptionByLabel(findTestObject('Hladjenje/SelectRashladnoSredstvo'), rashladnoSredstvo, true)
 
 WebUI.delay(GlobalVariable.timeDelay)
@@ -39,15 +47,15 @@ WebUI.selectOptionByLabel(findTestObject('Hladjenje/SelectGodisnjeDoba'), godisn
 
 WebUI.delay(GlobalVariable.timeDelay)
 
-WebUI.setText(findTestObject('Hladjenje/InputMasaRobe'), masaRobe)
-
-WebUI.delay(GlobalVariable.timeDelay)
-
-WebUI.setText(findTestObject('Hladjenje/InputTrajanjePrevoza'), trajanjePrevoza)
-
-WebUI.delay(GlobalVariable.timeDelay)
-
 WebUI.setText(findTestObject('Hladjenje/InputSpoljnaTemp'), spoljnaTemperatura)
+
+WebUI.delay(GlobalVariable.timeDelay)
+
+WebUI.selectOptionByLabel(findTestObject('Hladjenje/SelectVrstaNamirnice'), namirnica, true)
+
+WebUI.delay(GlobalVariable.timeDelay)
+
+WebUI.setText(findTestObject('Hladjenje/InputMasaRobe'), masaRobe)
 
 WebUI.delay(GlobalVariable.timeDelay)
 
@@ -55,9 +63,29 @@ WebUI.setText(findTestObject('Hladjenje/InputTempProizvoda'), temperaturaProizvo
 
 WebUI.delay(GlobalVariable.timeDelay)
 
-WebUI.selectOptionByLabel(findTestObject('Hladjenje/SelectVrstaNamirnice'), namirnica, true)
+WebUI.setText(findTestObject('Hladjenje/InputTrajanjePrevoza'), trajanjePrevoza)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.timeDelay)
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Hladjenje/SelectRashladnoSredstvo'), rashladnoSredstvo, true, GlobalVariable.timeDelay)
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Hladjenje/SelectGodisnjeDoba'), godisnjeDoba, true, GlobalVariable.timeDelay)
+
+//WebUI.verifyElementText(findTestObject('Hladjenje/InputSpoljnaTemp'), spoljnaTemperatura)
+
+//WebUI.delay(GlobalVariable.timeDelay)
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('Hladjenje/SelectVrstaNamirnice'), namirnica, true, GlobalVariable.timeDelay)
+
+//WebUI.delay(GlobalVariable.timeDelay)
+
+//WebUI.verifyElementText(findTestObject('Hladjenje/InputMasaRobe'), masaRobe)
+
+//WebUI.delay(GlobalVariable.timeDelay)
+
+//WebUI.verifyElementText(findTestObject('Hladjenje/InputTrajanjePrevoza'), trajanjePrevoza)
+
+//WebUI.delay(2)
 
 WebUI.click(findTestObject('Hladjenje/IzracunajBtn'))
 

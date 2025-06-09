@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>adrHIN_DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>345b5248-4b22-42e2-afc9-e9c994e9f848</testSuiteGuid>
+   <testCaseLink>
+      <guid>c751045e-3eb3-434f-82eb-a680d5c86447</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>9fabf551-fe8c-4ab9-9bec-2213b3a70c8f</id>
+         <masked>false</masked>
+         <name>adrHINumber</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/adrHIN</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>531fb167-96e9-4053-bdfe-e128927fa2a0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/db_adrHIN</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>531fb167-96e9-4053-bdfe-e128927fa2a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>adrHINumber</value>
+         <variableId>9fabf551-fe8c-4ab9-9bec-2213b3a70c8f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>531fb167-96e9-4053-bdfe-e128927fa2a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>adrHINmeaning</value>
+         <variableId>303e3715-6f0f-4c80-8cf2-1552b63ae36e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

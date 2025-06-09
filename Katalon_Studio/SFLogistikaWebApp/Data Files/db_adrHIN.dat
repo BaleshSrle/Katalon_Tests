@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>db_adrHIN</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4c38b69f-6383-4ecf-8642-479e3abdd34d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>23 Zapaljivi+gas.</data>
+   <data>25 Oksidiraju%C4%87i+%28poja%C4%8Dava+vatru%29.</data>
+   <data>30 Zapaljiva+te%C4%8Dnost+%28ta%C4%8Dka+paljenja+izme%C4%91u+23+i+60+%E2%84%83%2C+uklju%C4%8Divo%29%2C+ili+zapakliva+te%C4%8Dnost+ili+%C4%8Dvrsta+materija+u+otopljenom+stanju+sa+ta%C4%8Dkom+paljenja+iznad+60+%E2%84%83%2C+zagrijana+do+temperature+jednake+ili+iznad+njezine+ta%C4%8Dke+paljenja%2C+ili+samozagrijavaju%C4%87a+te%C4%8Dnost.</data>
+   <data>33 Jako+zapaljiva+te%C4%8Dnost+%28ta%C4%8Dka+paljenja+ispod+23+%E2%84%83%29.</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>adrHINumber</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>adrHINmeaning</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

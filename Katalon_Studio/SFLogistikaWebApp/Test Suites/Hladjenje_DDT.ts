@@ -18,9 +18,9 @@
       <iterationNameVariable>
          <defaultValue>''</defaultValue>
          <description></description>
-         <id>92a415da-1ff8-4c0c-acf4-62a7b1f0efd2</id>
+         <id>3994e0a1-fd3e-4aab-a7f8-7f5a3cbee917</id>
          <masked>false</masked>
-         <name>masaRobe</name>
+         <name>rashladnoSredstvo</name>
       </iterationNameVariable>
       <testCaseId>Test Cases/Hladjenje</testCaseId>
       <testDataLink>
