@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'tp']</value>
+         <value>//*[@id = 'TransportDuration']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tp</value>
-      <webElementGuid>74eb50d2-e313-4ee9-9b8a-e698a18ea41c</webElementGuid>
+      <value>TransportDuration</value>
+      <webElementGuid>f65dab58-0bbc-488b-932f-a1d5ae2b3f7e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

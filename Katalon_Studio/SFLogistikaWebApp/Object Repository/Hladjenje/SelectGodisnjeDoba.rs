@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'gd']</value>
+         <value>//*[@id = 'Season']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>gd</value>
-      <webElementGuid>012447a1-1b2e-4914-80fd-019621679e44</webElementGuid>
+      <value>Season</value>
+      <webElementGuid>94ddcbd5-a104-4164-bc5e-61841815cdbc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

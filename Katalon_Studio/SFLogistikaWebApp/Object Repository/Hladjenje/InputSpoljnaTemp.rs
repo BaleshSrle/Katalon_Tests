@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'ts']</value>
+         <value>//*[@id = 'OutsideTemp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ts</value>
-      <webElementGuid>a3d0aee6-97b4-47bf-91c6-a43f10b1284b</webElementGuid>
+      <value>OutsideTemp</value>
+      <webElementGuid>7e633584-14c2-4860-adb2-a10737f2496a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

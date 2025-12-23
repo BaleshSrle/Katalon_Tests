@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'tpr']</value>
+         <value>//*[@id = 'ProduceTemp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tpr</value>
-      <webElementGuid>4f8d9880-309d-4d61-990c-6c08a7b86aa9</webElementGuid>
+      <value>ProduceTemp</value>
+      <webElementGuid>1f6fd524-b690-400e-aef6-fd2911810eca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

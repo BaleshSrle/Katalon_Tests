@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'mr']</value>
+         <value>//*[@id = 'ProduceWeight']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mr</value>
-      <webElementGuid>ab3bd8c3-c3b4-458e-8ae1-e2229d41d66d</webElementGuid>
+      <value>ProduceWeight</value>
+      <webElementGuid>2b022fdc-5023-4444-a0de-36744b4c8a36</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

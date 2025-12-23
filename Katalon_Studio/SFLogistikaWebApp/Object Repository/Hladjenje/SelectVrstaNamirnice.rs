@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'str']</value>
+         <value>//*[@id = 'ProduceType']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>str</value>
-      <webElementGuid>df91caa1-481d-45b2-beba-2600d765efc5</webElementGuid>
+      <value>ProduceType</value>
+      <webElementGuid>751fcc9b-8659-4dc4-aa4a-ce1a9928493b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

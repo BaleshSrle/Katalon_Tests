@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'vrs']</value>
+         <value>//*[@id = 'RefrigerantType']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>vrs</value>
-      <webElementGuid>7553529d-ec0e-4b63-a028-9b7ed63c201a</webElementGuid>
+      <value>RefrigerantType</value>
+      <webElementGuid>71408f38-9ce5-43d2-96b8-8bd8851ff291</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
